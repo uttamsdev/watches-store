@@ -10,5 +10,23 @@
     padding-left: 90px;
 }
 .cart-container{
-    background-color: red;
+    background-color: lightgray;
+    height: 800px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.shop-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.shop-title h1{
+    color: blue;
+    font-size: 50px;
+}
+.shop-title p{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
 }

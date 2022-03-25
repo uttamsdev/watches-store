@@ -11,8 +11,10 @@ const Shop = () => {
     },[])
     return (
         <div>
-            <h1 style={{textAlign:'center'}}>Watches World BD</h1>
-            <p style={{textAlign:'center'}}>The Best Watch Store</p>
+            <div className="shop-title">
+                <h1>Watches World BD</h1>
+                <p>The Best Watch Store</p>
+            </div>
             <div className="shop-container">
                 <div className="product-container">
                     {

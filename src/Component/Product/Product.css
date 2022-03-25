@@ -15,6 +15,9 @@
     margin: 0;
     padding: 0;
 }
+.product h4{
+    margin-bottom: 10px;
+}
 .product button{
     position:absolute;
     bottom: 0;
@@ -22,4 +25,9 @@
     border: none;
     background-color: sandybrown;
     padding: 10px 0px;
+    border-radius: 0px 0px 8px 8px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    cursor: pointer;
 }
