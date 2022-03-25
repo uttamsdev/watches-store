@@ -1,0 +1,25 @@
+.product{
+    width: 330px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    padding: 14px;
+    position: relative;
+}
+.product img{
+    width: 330px;
+    
+}
+.product h3, h4{
+    margin: 0;
+    padding: 0;
+}
+.product button{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    background-color: sandybrown;
+    padding: 10px 0px;
+}
