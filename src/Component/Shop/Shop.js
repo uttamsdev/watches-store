@@ -19,8 +19,7 @@ const Shop = () => {
     }
     const chooseAgain = () => {
         setCart([]);
-        console.log('clicked');
-        console.log(cart);
+        setRandom([]);
     }
 
     const [random, setRandom] = useState([])
