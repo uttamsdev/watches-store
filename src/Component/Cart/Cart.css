@@ -1,0 +1,17 @@
+.selected-products{
+    font-size: 22px;
+    background-color:blue;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.selected-products img{
+    width: 70px;
+    border-radius: 50%;
+}

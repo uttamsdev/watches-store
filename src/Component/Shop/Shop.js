@@ -1,14 +1,22 @@
 import React, { useEffect, useState } from "react";
+import Cart from "../Cart/Cart";
 import Product from "../Product/Product";
 import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([])
+    const [cart, setCart] = useState([])
     useEffect(()=>{
         fetch('products.json')
         .then(response => response.json())
         .then(data => setProducts(data))
     },[])
+
+    const handleAddToCart = (product) => {
+    // console.log(product);
+    const newCart = [...cart, product] //copyign cart element and adding new product to new cart array
+    setCart(newCart);
+    }
     return (
         <div>
             {/* <div className="shop-title">
@@ -18,11 +26,11 @@ const Shop = () => {
             <div className="shop-container">
                 <div className="product-container">
                     {
-                        products.map(product => <Product product={product} key={product.id}></Product>)
+                        products.map(product => <Product product={product} key={product.id} handleAddToCart={handleAddToCart}></Product>)
                     }
                 </div>
                 <div className="cart-container">
-                    <h2>Selected Watch</h2>
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>
