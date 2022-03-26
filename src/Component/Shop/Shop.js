@@ -15,6 +15,16 @@ const Shop = () => {
     const handleAddToCart = (product) => {
     // console.log(product);
     const newCart = [...cart, product] //copyign cart element and adding new product to new cart array
+    if(newCart.length > 4){
+        alert('You cannot add more than 4 products');
+        return;
+    }
+    let addedProduct = cart.find(c => c.id === product.id );
+    console.log(addedProduct);
+    if(addedProduct){
+        alert('Product already added you cannot add twice');
+        return;
+    }
     setCart(newCart);
     }
     const chooseAgain = () => {
