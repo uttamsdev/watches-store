@@ -35,3 +35,10 @@
     font-size: 22px;
     margin-left: 5px;
 }
+
+@media (max-width:688px) {
+    .product{
+        margin-left: 15px;
+    }
+    
+}

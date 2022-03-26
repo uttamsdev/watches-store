@@ -18,3 +18,12 @@
     /* font-weight: bold; */
     
 }
+@media (max-width:688px) {
+    .header{
+        margin-bottom: 30px;
+    }
+    .header h1{
+        font-size: 38px;
+    }
+    
+}
