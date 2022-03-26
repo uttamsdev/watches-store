@@ -1,6 +1,6 @@
 .selected-products{
     font-size: 22px;
-    background-color:blue;
+    background-color:rgba(35, 35, 250, 0.733);
     margin-bottom: 20px;
     color: white;
     padding: 10px;
@@ -14,4 +14,18 @@
 .selected-products img{
     width: 70px;
     border-radius: 50%;
+}
+.btn{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 19px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 550;
+    width: 100%;
 }
