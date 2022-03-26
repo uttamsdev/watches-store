@@ -13,8 +13,7 @@ const Shop = () => {
     },[])
 
     const handleAddToCart = (product) => {
-    // console.log(product);
-    const newCart = [...cart, product] //copyign cart element and adding new product to new cart array
+    const newCart = [...cart, product]
     if(newCart.length > 4){
         alert('You cannot add more than 4 products');
         return;
@@ -38,23 +37,10 @@ const Shop = () => {
         let intRandom = Math.floor(Math.random() * cart.length) + 0;
         randomSelection = cart[intRandom];
         setRandom(randomSelection);
-        // console.log(randomSelection);
-        // return randomSelection;
         
     }
-    // console.log(randomSelection);
-    // useEffect(()=>{
-
-    // },[setNumber])
-    // useEffect(()=>{
-    //     cart = [];
-    // },[chooseAgain])
     return (
         <div>
-            {/* <div className="shop-title">
-                <h1>Watches World BD</h1>
-                <p>The Best Watch Store</p>
-            </div> */}
             <div className="shop-container">
                 <div className="product-container">
                     {

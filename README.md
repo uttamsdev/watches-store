@@ -1,8 +1,8 @@
 # Watches World BD
 
-# [Netlify Live Link](https://github.com/facebook/create-react-app).
+# [Netlify Live Link](https://watches-world-bd.netlify.app/)
 
-Netlify live link: https://google.com
+# Netlify live link: https://watches-world-bd.netlify.app/
 ## Project Description:
 This is a simple shopping website. There is some random watches. User can add to cart and remove cart.
 This project is created using reactJS , html and plain css.

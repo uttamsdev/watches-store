@@ -3,7 +3,6 @@
     grid-template-columns: 4fr 1fr;
 }
 .product-container{
-    /* background-color: orange; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
@@ -44,8 +43,6 @@
     .product-container{
         grid-template-columns: repeat(1, 1fr);
         padding-left: 0;
-        /* margin-left: 30px; */
-        /* margin: 10px; */
         overflow-x: hidden;
     }
 }
