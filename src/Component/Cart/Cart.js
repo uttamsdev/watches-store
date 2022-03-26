@@ -23,7 +23,7 @@ const Cart = (props) => {
     // }
 
 
-    
+
     return (
         <div className="cart-items">
             <h2>Selected Watch: </h2>
