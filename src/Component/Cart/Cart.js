@@ -29,7 +29,7 @@ const Cart = (props) => {
             <h2>Selected Watch: </h2>
             <hr />
             {
-                cart.map(product => <div className="selected-products" key={product.id}><img src={product.img}></img> {product.name} <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon> </div>)
+                cart.map(product => <div className="selected-products" key={product.id}><img src={product.img}></img> {product.name} <FontAwesomeIcon  icon={faTrash}></FontAwesomeIcon> </div>)
                 
             }
             <button onClick={chooseOne} className="btn">CHOOSE 1 FOR ME</button> <br/>
