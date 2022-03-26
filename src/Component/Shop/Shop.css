@@ -10,16 +10,18 @@
     padding-left: 90px;
 }
 .cart-container{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.555);
     height: 800px;
     position: sticky;
     top: 0;
     padding: 20px;
     border-radius: 10px;
 }
-.shop-title{
+/* .shop-title{
     text-align: center;
     margin-bottom: 50px;
+    background-color: darkblue;
+    padding-top: 50px;
 }
 .shop-title h1{
     color: blue;
@@ -29,4 +31,4 @@
     font-size: 25px;
     color: red;
     font-weight: bold;
-}
+} */

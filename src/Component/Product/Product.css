@@ -24,10 +24,10 @@
     width: 100%;
     border: none;
     background-color: sandybrown;
-    padding: 10px 0px;
+    padding: 12px 0px;
     border-radius: 0px 0px 8px 8px;
     color: white;
-    background-color: blue;
+    background-color: rgba(47, 47, 245, 0.925);
     font-weight: bold;
     cursor: pointer;
 }

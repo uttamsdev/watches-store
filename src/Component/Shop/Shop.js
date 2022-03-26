@@ -11,10 +11,10 @@ const Shop = () => {
     },[])
     return (
         <div>
-            <div className="shop-title">
+            {/* <div className="shop-title">
                 <h1>Watches World BD</h1>
                 <p>The Best Watch Store</p>
-            </div>
+            </div> */}
             <div className="shop-container">
                 <div className="product-container">
                     {
@@ -22,7 +22,7 @@ const Shop = () => {
                     }
                 </div>
                 <div className="cart-container">
-                    <h1>Product conatiner</h1>
+                    <h2>Selected Watch</h2>
                 </div>
             </div>
         </div>
