@@ -22,6 +22,21 @@ const Shop = () => {
         console.log('clicked');
         console.log(cart);
     }
+
+    const [random, setRandom] = useState([])
+    let randomSelection = [];
+    const chooseOne = (oneProduct) => {
+        let intRandom = Math.floor(Math.random() * cart.length) + 0;
+        randomSelection = cart[intRandom];
+        setRandom(randomSelection);
+        // console.log(randomSelection);
+        // return randomSelection;
+        
+    }
+    // console.log(randomSelection);
+    // useEffect(()=>{
+
+    // },[setNumber])
     // useEffect(()=>{
     //     cart = [];
     // },[chooseAgain])
@@ -38,7 +53,8 @@ const Shop = () => {
                     }
                 </div>
                 <div className="cart-container">
-                    <Cart chooseAgain={chooseAgain} cart={cart}></Cart>
+                    <Cart chooseAgain={chooseAgain} chooseOne={chooseOne} cart={cart}
+                    random={random}></Cart>
                 </div>
             </div>
         </div>
